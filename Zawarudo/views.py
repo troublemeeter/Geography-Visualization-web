@@ -4,7 +4,7 @@ from .models import Animation
 # Create your views here.
 
 def index(request):
-    return render(request, "home.html")
+    return render(request, "cover.html")
 
 
 def Graph(request):
@@ -12,7 +12,7 @@ def Graph(request):
     ctx = {
         'Animations': Animations
     }
-    return render(request, 'Graph.html', ctx)
+    return render(request, 'airline.html', ctx)
 
 def about(request):
     return render(request, "about.html")

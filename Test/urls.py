@@ -19,8 +19,8 @@ from Zawarudo import views
 from django.conf.urls import include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path(r'admin/', admin.site.urls),
     #path('home/', views.index),
-    path('Zawarudo/', include('Zawarudo.urls')),
+    path(r'Zawarudo/', include('Zawarudo.urls')),
 
 ]
