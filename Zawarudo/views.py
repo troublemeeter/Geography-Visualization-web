@@ -15,4 +15,4 @@ def Graph(request):
     return render(request, 'airline.html', ctx)
 
 def about(request):
-    return render(request, "about.html")
+    return render(request, "about2.html")

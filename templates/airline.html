@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    <audio autoplay="" loop="" id="bgAudio"><source src="{% static 'images/background/c.mp3' %}"></audio>
+    <script type="text/javascript">document.getElementById("bgAudio").volume = 0.1</script>
 
     <div id="main" style="width: 100%;height:800px;"></div>
     <script src="{% static 'js/airline/echarts.min.js' %}"></script>
