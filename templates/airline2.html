@@ -50,8 +50,6 @@
             ]
         });
 
-        // https://www.behance.net/gallery/50293671/T-GLOBE
-
         $.getJSON('/static/js/airline/flights.json', function (data) {
             var airports = data.airports.map(function (item) {
                 return {
