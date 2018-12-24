@@ -1,0 +1,198 @@
+start_lat,start_lon,end_lat,end_lon,airline,airport1,airport2,flights count
+-75.440806,40.652083,-80.943139,35.214,American Airlines,Lehigh Valley Intl,Charlotte Douglas Intl,2254
+-75.440806,40.652083,-75.241139,39.871944,American Airlines,Lehigh Valley Intl,Philadelphia Intl,1235
+-99.681897,32.411319,-97.037997,32.896828,American Airlines,Abilene Rgnl,Dallas Fort Worth Intl,1945
+-106.6091944,35.0402222,-97.037997,32.896828,American Airlines,Albuquerque International Sunport,Dallas Fort Worth Intl,288
+-106.6091944,35.0402222,-118.408075,33.942536,American Airlines,Albuquerque International Sunport,Los Angeles Intl,618
+-106.6091944,35.0402222,-87.904842,41.978603,American Airlines,Albuquerque International Sunport,Chicago Ohare Intl,1280
+-106.6091944,35.0402222,-112.011583,33.434278,American Airlines,Albuquerque International Sunport,Phoenix Sky Harbor Intl,1166
+-2.197778,57.201944,-0.461389,51.4775,American Airlines,Dyce,Heathrow,1909
+-0.166786,5.605186,-0.461389,51.4775,American Airlines,Kotoka Intl,Heathrow,1968
+-84.428067,33.636719,-87.752417,41.785972,Southwest Airlines,Hartsfield Jackson Atlanta Intl,Chicago Midway Intl,625
+-97.230519,31.611289,-97.037997,32.896828,American Airlines,Waco Rgnl,Dallas Fort Worth Intl,570
+138.530556,-34.945,153.1175,-27.384167,American Airlines,Adelaide Intl,Brisbane Intl,1125
+138.530556,-34.945,151.177222,-33.946111,American Airlines,Adelaide Intl,Sydney Intl,1074
+-92.549833,31.3274,-97.037997,32.896828,American Airlines,Alexandria Intl,Dallas Fort Worth Intl,1392
+-4.499106,36.6749,-0.461389,51.4775,American Airlines,Malaga,Heathrow,674
+-81.9645,33.369944,-80.943139,35.214,American Airlines,Augusta Rgnl At Bush Fld,Charlotte Douglas Intl,1115
+-81.9645,33.369944,-77.037722,38.852083,American Airlines,Augusta Rgnl At Bush Fld,Ronald Reagan Washington Natl,71
+-102.317858,21.705558,-97.037997,32.896828,American Airlines,Jesus Teran Intl,Dallas Fort Worth Intl,867
+174.791667,-37.008056,153.1175,-27.384167,American Airlines,Auckland Intl,Brisbane Intl,449
+174.791667,-37.008056,-149.611389,-17.556667,American Airlines,Auckland Intl,Faa\\'a International,497
+174.791667,-37.008056,151.177222,-33.946111,American Airlines,Auckland Intl,Sydney Intl,2542
+-73.801692,42.748267,-80.943139,35.214,American Airlines,Albany Intl,Charlotte Douglas Intl,1214
+-73.801692,42.748267,-77.037722,38.852083,American Airlines,Albany Intl,Ronald Reagan Washington Natl,1376
+-73.801692,42.748267,-75.241139,39.871944,American Airlines,Albany Intl,Philadelphia Intl,2820
+-92.4003,42.5571,-87.904842,41.978603,American Airlines,Waterloo Regional Airport,Chicago Ohare Intl,2078
+-101.705931,35.219369,-97.037997,32.896828,American Airlines,Rick Husband Amarillo Intl,Dallas Fort Worth Intl,728
+35.993214,31.722556,-73.778925,40.639751,American Airlines,Queen Alia Intl,John F Kennedy Intl,1739
+35.993214,31.722556,-87.904842,41.978603,American Airlines,Queen Alia Intl,Chicago Ohare Intl,608
+35.993214,31.722556,-73.740833,45.470556,American Airlines,Queen Alia Intl,Pierre Elliott Trudeau Intl,3149
+4.763889,52.308613,-0.461389,51.4775,American Airlines,Schiphol,Heathrow,103
+4.763889,52.308613,-75.241139,39.871944,American Airlines,Schiphol,Philadelphia Intl,2081
+-149.996361,61.174361,-118.408075,33.942536,American Airlines,Ted Stevens Anchorage Intl,Los Angeles Intl,952
+-149.996361,61.174361,-112.011583,33.434278,American Airlines,Ted Stevens Anchorage Intl,Phoenix Sky Harbor Intl,639
+-61.792667,17.136749,-80.943139,35.214,American Airlines,V C Bird Intl,Charlotte Douglas Intl,2466
+-61.792667,17.136749,-73.778925,40.639751,American Airlines,V C Bird Intl,John F Kennedy Intl,467
+-61.792667,17.136749,-80.290556,25.79325,American Airlines,V C Bird Intl,Miami Intl,2717
+-71.583083,-16.341072,-77.114319,-12.021889,American Airlines,Rodriguez Ballon,Jorge Chavez Intl,1393
+17.918611,59.651944,-0.461389,51.4775,American Airlines,Arlanda,Heathrow,1257
+-76.021739,43.991922,-87.904842,41.978603,American Airlines,Watertown Intl,Chicago Ohare Intl,2469
+-76.021739,43.991922,-75.241139,39.871944,American Airlines,Watertown Intl,Philadelphia Intl,2938
+133.902222,-23.806667,151.177222,-33.946111,American Airlines,Alice Springs,Sydney Intl,43
+-57.519133,-25.23985,-80.290556,25.79325,American Airlines,Silvio Pettirossi Intl,Miami Intl,30
+23.944467,37.936358,-0.461389,51.4775,American Airlines,Eleftherios Venizelos Intl,Heathrow,1525
+23.944467,37.936358,-75.241139,39.871944,American Airlines,Eleftherios Venizelos Intl,Philadelphia Intl,798
+-84.428067,33.636719,-80.943139,35.214,American Airlines,Hartsfield Jackson Atlanta Intl,Charlotte Douglas Intl,521
+-84.428067,33.636719,-97.037997,32.896828,American Airlines,Hartsfield Jackson Atlanta Intl,Dallas Fort Worth Intl,1492
+-84.428067,33.636719,-0.461389,51.4775,American Airlines,Hartsfield Jackson Atlanta Intl,Heathrow,1437
+-84.428067,33.636719,-80.290556,25.79325,American Airlines,Hartsfield Jackson Atlanta Intl,Miami Intl,1324
+-84.428067,33.636719,-87.904842,41.978603,American Airlines,Hartsfield Jackson Atlanta Intl,Chicago Ohare Intl,1440
+-84.428067,33.636719,-75.241139,39.871944,American Airlines,Hartsfield Jackson Atlanta Intl,Philadelphia Intl,702
+-84.428067,33.636719,-112.011583,33.434278,American Airlines,Hartsfield Jackson Atlanta Intl,Phoenix Sky Harbor Intl,248
+-70.015221,12.501389,-80.943139,35.214,American Airlines,Reina Beatrix Intl,Charlotte Douglas Intl,13
+-70.015221,12.501389,-80.290556,25.79325,American Airlines,Reina Beatrix Intl,Miami Intl,299
+-70.015221,12.501389,-75.241139,39.871944,American Airlines,Reina Beatrix Intl,Philadelphia Intl,3171
+54.651138,24.432972,79.884117,7.180756,American Airlines,Abu Dhabi Intl,Bandaranaike Intl Colombo,287
+54.651138,24.432972,6.766775,51.289453,American Airlines,Abu Dhabi Intl,Dusseldorf,504
+54.651138,24.432972,-77.455811,38.944533,American Airlines,Abu Dhabi Intl,Washington Dulles Intl,812
+54.651138,24.432972,73.099233,33.616653,American Airlines,Abu Dhabi Intl,Chaklala,628
+54.651138,24.432972,-73.778925,40.639751,American Airlines,Abu Dhabi Intl,John F Kennedy Intl,784
+54.651138,24.432972,74.403594,31.521564,American Airlines,Abu Dhabi Intl,Allama Iqbal Intl,1422
+54.651138,24.432972,-0.461389,51.4775,American Airlines,Abu Dhabi Intl,Heathrow,739
+54.651138,24.432972,58.284444,23.593278,American Airlines,Abu Dhabi Intl,Seeb Intl,1111
+54.651138,24.432972,-87.904842,41.978603,American Airlines,Abu Dhabi Intl,Chicago Ohare Intl,977
+-97.669889,30.194528,-80.943139,35.214,American Airlines,Austin Bergstrom Intl,Charlotte Douglas Intl,2247
+-97.669889,30.194528,-97.037997,32.896828,American Airlines,Austin Bergstrom Intl,Dallas Fort Worth Intl,1323
+-97.669889,30.194528,-73.778925,40.639751,American Airlines,Austin Bergstrom Intl,John F Kennedy Intl,2567
+-97.669889,30.194528,-118.408075,33.942536,American Airlines,Austin Bergstrom Intl,Los Angeles Intl,1588
+-97.669889,30.194528,-0.461389,51.4775,American Airlines,Austin Bergstrom Intl,Heathrow,691
+-97.669889,30.194528,-90.258028,29.993389,American Airlines,Austin Bergstrom Intl,Louis Armstrong New Orleans Intl,1561
+-97.669889,30.194528,-87.904842,41.978603,American Airlines,Austin Bergstrom Intl,Chicago Ohare Intl,825
+-97.669889,30.194528,-75.241139,39.871944,American Airlines,Austin Bergstrom Intl,Philadelphia Intl,446
+-97.669889,30.194528,-112.011583,33.434278,American Airlines,Austin Bergstrom Intl,Phoenix Sky Harbor Intl,1527
+-82.541806,35.436194,-80.943139,35.214,American Airlines,Asheville Regional Airport,Charlotte Douglas Intl,907
+-75.723403,41.338478,-80.943139,35.214,American Airlines,Wilkes Barre Scranton Intl,Charlotte Douglas Intl,537
+-75.723403,41.338478,-75.241139,39.871944,American Airlines,Wilkes Barre Scranton Intl,Philadelphia Intl,1229
+-85.552058,42.234875,-87.904842,41.978603,American Airlines,Kalamazoo,Chicago Ohare Intl,1870
+50.63361,26.270834,51.565056,25.261125,American Airlines,Bahrain Intl,Doha Intl,649
+50.63361,26.270834,-0.461389,51.4775,American Airlines,Bahrain Intl,Heathrow,571
+2.078464,41.297078,-73.778925,40.639751,American Airlines,Barcelona,John F Kennedy Intl,431
+2.078464,41.297078,-0.461389,51.4775,American Airlines,Barcelona,Heathrow,2094
+2.078464,41.297078,-80.290556,25.79325,American Airlines,Barcelona,Miami Intl,286
+2.078464,41.297078,-75.241139,39.871944,American Airlines,Barcelona,Philadelphia Intl,2511
+-64.678703,32.364042,-73.778925,40.639751,American Airlines,Bermuda Intl,John F Kennedy Intl,134
+38.799319,8.977889,113.298786,23.392436,Air China,Bole Intl,Baiyun Intl,347
+38.799319,8.977889,116.584556,40.080111,Air China,Bole Intl,Capital Intl,2592
+174.791667,-37.008056,121.805214,31.143378,Air China,Auckland Intl,Pudong,1715
+80.2917,41.2625,103.947086,30.578528,Air China,Aksu Airport,Shuangliu,1012
+17.918611,59.651944,12.279819,57.662836,Air China,Arlanda,Landvetter,1031
+17.918611,59.651944,6.10895,46.238064,Air China,Arlanda,Geneve Cointrin,10
+17.918611,59.651944,24.963333,60.317222,Air China,Arlanda,Helsinki Vantaa,235
+17.918611,59.651944,116.584556,40.080111,Air China,Arlanda,Capital Intl,4114
+17.918611,59.651944,23.604392,61.414147,Air China,Arlanda,Tampere Pirkkala,418
+17.918611,59.651944,21.762175,63.05065,Air China,Arlanda,Vaasa,3076
+23.944467,37.936358,11.786086,48.353783,Air China,Eleftherios Venizelos Intl,Franz Josef Strauss,739
+-84.428067,33.636719,-95.341442,29.984433,Air China,Hartsfield Jackson Atlanta Intl,George Bush Intercontinental,262
+109.997,40.56,113.298786,23.392436,Air China,Baotou Airport,Baiyun Intl,2035
+109.997,40.56,116.584556,40.080111,Air China,Baotou Airport,Capital Intl,1510
+109.997,40.56,117.346183,39.124353,Air China,Baotou Airport,Binhai,397
+109.997,40.56,112.628428,37.746897,Air China,Baotou Airport,Wusu,909
+2.078464,41.297078,16.569722,48.110278,Air China,Barcelona,Schwechat,1460
+109.294,21.5394,120.434453,30.229503,Air China,Beihai Airport,Xiaoshan,548
+109.294,21.5394,116.584556,40.080111,Air China,Beihai Airport,Capital Intl,109
+100.747283,13.681108,116.584556,40.080111,Air China,Suvarnabhumi Intl,Capital Intl,2087
+100.747283,13.681108,113.810664,22.639258,Air China,Suvarnabhumi Intl,Baoan Intl,2069
+72.867919,19.088686,103.947086,30.578528,Air China,Chhatrapati Shivaji Intl,Shuangliu,2255
+97.1083,30.5536,103.947086,30.578528,Air China,Qamdo Bangda Airport,Shuangliu,3008
+31.405556,30.121944,113.298786,23.392436,Air China,Cairo Intl,Baiyun Intl,20
+31.405556,30.121944,116.584556,40.080111,Air China,Cairo Intl,Capital Intl,429
+113.298786,23.392436,38.799319,8.977889,Air China,Baiyun Intl,Bole Intl,1452
+113.298786,23.392436,109.997,40.56,Air China,Baiyun Intl,Baotou Airport,873
+113.298786,23.392436,31.405556,30.121944,Air China,Baiyun Intl,Cairo Intl,1450
+113.298786,23.392436,113.840889,34.519672,Air China,Baiyun Intl,Xinzheng,2094
+113.298786,23.392436,125.1201,43.5412,Air China,Baiyun Intl,Changchun,447
+113.298786,23.392436,106.641678,29.719217,Air China,Baiyun Intl,Jiangbei,1380
+113.298786,23.392436,103.947086,30.578528,Air China,Baiyun Intl,Shuangliu,317
+113.298786,23.392436,119.711667,31.941667,Air China,Baiyun Intl,Changzhou,1154
+113.298786,23.392436,107.5,31.3,Air China,Baiyun Intl,Dachuan Airport,759
+113.298786,23.392436,105.702,32.3911,Air China,Baiyun Intl,Guangyuan Airport,1267
+113.298786,23.392436,110.458961,19.934856,Air China,Baiyun Intl,Meilan,573
+113.298786,23.392436,111.824103,40.851422,Air China,Baiyun Intl,Baita Airport,1671
+113.298786,23.392436,117.298436,31.780019,Air China,Baiyun Intl,Luogang,2161
+113.298786,23.392436,120.434453,30.229503,Air China,Baiyun Intl,Xiaoshan,1119
+113.298786,23.392436,126.250328,45.623403,Air China,Baiyun Intl,Taiping,1460
+113.298786,23.392436,121.429,28.5622,Air China,Baiyun Intl,Huangyan Luqiao Airport,506
+113.298786,23.392436,28.814606,40.976922,Air China,Baiyun Intl,Ataturk,971
+113.298786,23.392436,117.176,29.3386,Air China,Baiyun Intl,Jingdezhen Airport,794
+113.298786,23.392436,118.59,24.7964,Air China,Baiyun Intl,Quanzhou Airport,850
+113.298786,23.392436,103.683,32.857,Air China,Baiyun Intl,Jiuzhaigou Huanglong,940
+113.298786,23.392436,115.9,28.865,Air China,Baiyun Intl,Changbei Intl,1844
+113.298786,23.392436,102.743536,24.992364,Air China,Baiyun Intl,Wujiaba,1394
+113.298786,23.392436,106.800703,26.538522,Air China,Baiyun Intl,Longdongbao,45
+113.298786,23.392436,118.412,35.0461,Air China,Baiyun Intl,Shubuling Airport,2741
+113.298786,23.392436,105.393,28.8522,Air China,Baiyun Intl,Luzhou Airport,1238
+113.298786,23.392436,118.862025,31.742042,Air China,Baiyun Intl,Lukou,965
+113.298786,23.392436,108.172442,22.608267,Air China,Baiyun Intl,Wuxu,1296
+113.298786,23.392436,140.386389,35.764722,Air China,Baiyun Intl,Narita Intl,1431
+113.298786,23.392436,120.976,32.0708,Air China,Baiyun Intl,Nantong Airport,574
+113.298786,23.392436,116.584556,40.080111,Air China,Baiyun Intl,Capital Intl,1493
+113.298786,23.392436,121.805214,31.143378,Air China,Baiyun Intl,Pudong,1296
+113.298786,23.392436,121.336319,31.197875,Air China,Baiyun Intl,Hongqiao Intl,1819
+113.298786,23.392436,123.2901,41.3824,Air China,Baiyun Intl,Shenyang Taoxian International Airport,1252
+113.298786,23.392436,120.374436,36.266108,Air China,Baiyun Intl,Liuting,99
+113.298786,23.392436,117.215992,36.857214,Air China,Baiyun Intl,Jinan,1495
+113.298786,23.392436,117.346183,39.124353,Air China,Baiyun Intl,Binhai,311
+113.298786,23.392436,120.852,27.9122,Air China,Baiyun Intl,Wenzhou Yongqiang Airport,405
+113.298786,23.392436,114.2081,30.783758,Air China,Baiyun Intl,Tianhe,1472
+113.298786,23.392436,118.001,27.7019,Air China,Baiyun Intl,Nanping Wuyishan Airport,1763
+113.298786,23.392436,120.429,31.4944,Air China,Baiyun Intl,Wuxi Airport,306
+113.298786,23.392436,108.406,30.8361,Air China,Baiyun Intl,Wanxian Airport,1052
+113.298786,23.392436,108.751592,34.447119,Air China,Baiyun Intl,Xianyang,684
+113.298786,23.392436,118.127739,24.544036,Air China,Baiyun Intl,Gaoqi,1109
+113.298786,23.392436,104.544444,28.800278,Air China,Baiyun Intl,Yibin,1115
+113.298786,23.392436,110.993,35.018,Air China,Baiyun Intl,Zhangxiao,185
+113.298786,23.392436,121.371667,37.401667,Air China,Baiyun Intl,Laishan,1495
+2.55,49.012779,116.584556,40.080111,Air China,Charles De Gaulle,Capital Intl,311
+2.55,49.012779,121.805214,31.143378,Air China,Charles De Gaulle,Pudong,872
+106.655897,-6.125567,118.127739,24.544036,Air China,Soekarno Hatta Intl,Gaoqi,41
+-75.440806,40.652083,-84.428067,33.636719,Delta Air Lines,Lehigh Valley Intl,Hartsfield Jackson Atlanta Intl,2404
+-75.440806,40.652083,-83.353389,42.212444,Delta Air Lines,Lehigh Valley Intl,Detroit Metro Wayne Co,2017
+-106.6091944,35.0402222,-84.428067,33.636719,Delta Air Lines,Albuquerque International Sunport,Hartsfield Jackson Atlanta Intl,1828
+-106.6091944,35.0402222,-93.221767,44.881956,Delta Air Lines,Albuquerque International Sunport,Minneapolis St Paul Intl,1769
+-106.6091944,35.0402222,-111.977772,40.788389,Delta Air Lines,Albuquerque International Sunport,Salt Lake City Intl,2895
+-98.4218,45.4491,-93.221767,44.881956,Delta Air Lines,Aberdeen Regional Airport,Minneapolis St Paul Intl,267
+7.263172,9.006792,2.55,49.012779,Delta Air Lines,Nnamdi Azikiwe Intl,Charles De Gaulle,2528
+7.263172,9.006792,6.949594,5.015494,Delta Air Lines,Nnamdi Azikiwe Intl,Port Harcourt Intl,104
+-84.1945,31.5355,-84.428067,33.636719,Delta Air Lines,Southwest Georgia Regional Airport,Hartsfield Jackson Atlanta Intl,1931
+10.619008,56.300017,-4.499106,36.6749,Ryanair,Aarhus,Malaga,1387
+10.619008,56.300017,2.727778,39.55361,Ryanair,Aarhus,Son Sant Joan,1751
+10.619008,56.300017,0.235,51.885,Ryanair,Aarhus,Stansted,734
+-13.605225,28.945464,2.078464,41.297078,Ryanair,Lanzarote,Barcelona,2619
+-13.605225,28.945464,9.704166,45.673889,Ryanair,Lanzarote,Bergamo Orio Al Serio,143
+-13.605225,28.945464,-1.748028,52.453856,Ryanair,Lanzarote,Birmingham,446
+-13.605225,28.945464,11.288667,44.535444,Ryanair,Lanzarote,Bologna,840
+-13.605225,28.945464,-1.8425,50.78,Ryanair,Lanzarote,Bournemouth,1215
+-13.605225,28.945464,-2.719089,51.382669,Ryanair,Lanzarote,Bristol,805
+-13.605225,28.945464,2.112778,49.454444,Ryanair,Lanzarote,Tille,1095
+-13.605225,28.945464,4.453817,50.459197,Ryanair,Lanzarote,Brussels South,625
+-2.197778,57.201944,-0.190278,51.148056,easyJet,Dyce,Gatwick,105
+-2.197778,57.201944,-0.368333,51.874722,easyJet,Dyce,Luton,1770
+-13.605225,28.945464,-0.190278,51.148056,easyJet,Lanzarote,Gatwick,2197
+-13.605225,28.945464,-2.849722,53.333611,easyJet,Lanzarote,Liverpool,933
+27.156953,38.292392,-0.190278,51.148056,easyJet,Adnan Menderes,Gatwick,293
+-9.546311,30.381353,2.55,49.012779,easyJet,Inezgane,Charles De Gaulle,502
+-9.546311,30.381353,-0.190278,51.148056,easyJet,Inezgane,Gatwick,1090
+-9.546311,30.381353,5.090833,45.726387,easyJet,Inezgane,Saint Exupery,1520
+-9.546311,30.381353,13.5225,52.380001,easyJet,Inezgane,Schonefeld,247
+-149.996361,61.174361,-122.309306,47.449,United Airlines,Ted Stevens Anchorage Intl,Seattle Tacoma Intl,1500
+-61.792667,17.136749,-74.168667,40.6925,United Airlines,V C Bird Intl,Newark Liberty Intl,197
+-78.320022,40.296372,-77.455811,38.944533,United Airlines,Altoona Blair Co,Washington Dulles Intl,57
+-78.320022,40.296372,-78.833889,40.316111,United Airlines,Altoona Blair Co,John Murtha Johnstown-Cambria County Airport,1855
+17.918611,59.651944,-74.168667,40.6925,United Airlines,Arlanda,Newark Liberty Intl,718
+58.360967,37.986814,50.046667,40.4675,United Airlines,Ashgabat,Heydar Aliyev,532
+-106.869,39.2232,-104.673178,39.861656,United Airlines,Aspen Pitkin County Sardy Field,Denver Intl,1297
+-106.869,39.2232,-118.408075,33.942536,United Airlines,Aspen Pitkin County Sardy Field,Los Angeles Intl,2350
+-84.428067,33.636719,-81.849794,41.411689,United Airlines,Hartsfield Jackson Atlanta Intl,Cleveland Hopkins Intl,1459
+-84.428067,33.636719,-104.673178,39.861656,United Airlines,Hartsfield Jackson Atlanta Intl,Denver Intl,364
+-84.428067,33.636719,-74.168667,40.6925,United Airlines,Hartsfield Jackson Atlanta Intl,Newark Liberty Intl,2459
