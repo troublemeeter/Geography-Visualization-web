@@ -1,0 +1,202 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>数据可视化作业</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <audio autoplay="" loop="" id="bgAudio"><source src="{% static 'images/background/c.mp3' %}"></audio>
+    <script type="text/javascript">document.getElementById("bgAudio").volume = 0.1</script>
+
+    <div id="main" style="width: 100%;height:800px;"></div>
+    <script src="{% static 'js/airline/echarts.min.js' %}"></script>
+    <script src="{% static 'js/airline/echarts-gl.min.js' %}"></script>
+    <script src="{% static 'js/airline/world.js' %}"></script>
+    <script src="{% static 'js/airline/jquery.min.js' %}"></script>
+    <script>
+        var chart = echarts.init(document.getElementById('main'));
+
+        var canvas = document.createElement('canvas');
+        var mapChart = echarts.init(canvas, null, {
+            width: 4096,
+            height: 2048
+        });
+
+        mapChart.setOption({
+            series : [
+                {
+                    type: 'map',
+                    map: 'world',
+
+
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    boundingCoords: [[-180, 90], [180, -90]],
+                    silent: true,
+                    itemStyle: {
+                        normal: {
+                            borderWidth: 1,
+                            borderColor: 'rgb(100, 5, 10)',
+                            color: 'transparent'
+                        }
+                    }
+                }
+            ]
+        });
+
+        $.getJSON('/static/js/airline/flights.json', function (data) {
+            var airports = data.airports.map(function (item) {
+                return {
+                    coord: [item[3], item[4]]
+                }
+            });
+            function getAirportCoord(idx) {
+                return [data.airports[idx][3], data.airports[idx][4]];
+            }
+            // Route: [airlineIndex, sourceAirportIndex, destinationAirportIndex]
+            var routesGroupByAirline = {};
+            data.routes.forEach(function (route) {
+                var airline = data.airlines[route[0]];
+                var airlineName = airline[0];
+                if (!routesGroupByAirline[airlineName]) {
+                    routesGroupByAirline[airlineName] = [];
+                }
+                routesGroupByAirline[airlineName].push(route);
+            });
+
+            var pointsData = [];
+            data.routes.forEach(function (airline) {
+                pointsData.push(getAirportCoord(airline[1]));
+                pointsData.push(getAirportCoord(airline[2]));
+            });
+
+            var series = data.airlines.map(function (airline) {
+                var airlineName = airline[0];
+                var routes = routesGroupByAirline[airlineName];
+
+                if (!routes) {
+                    return null;
+                }
+                return {
+                    type: 'lines3D',
+                    name: airlineName,
+
+                    effect: {
+                        show: true,
+                        trailWidth: 1.5,
+                        trailLength: 0.5,
+                        trailOpacity: 0.4,
+                        trailColor: 'rgb(255, 255, 0)'
+                    },
+
+                    lineStyle: {
+                        width: 2,
+                        color: 'rgb(50, 50, 150)',
+                        // color: 'rgb(118, 233, 241)',
+                        opacity: 0.1
+                    },
+                    blendMode: 'lighter',
+
+                    distanceToGlobe: 4,
+
+                    data: routes.map(function (item) {
+                        return [airports[item[1]].coord, airports[item[2]].coord];
+                    })
+                };
+            }).filter(function (series) {
+                return !!series;
+            });
+            series.push({
+                type: 'scatter3D',
+                coordinateSystem: 'globe',
+                blendMode: 'lighter',
+                symbolSize: 2,
+                distanceToGlobe: 4,
+                itemStyle: {
+                    color: 'rgb(50, 50, 50)',
+                    opacity: 0.2
+                },
+                data: pointsData
+            });
+
+            chart.setOption({
+                toolbox: {
+                    feature: {
+                        saveAsImage: {}
+                    },
+                    iconStyle: {
+                        normal: {
+                            borderColor: '#fff'
+                        }
+                    }
+                },
+                legend: {
+                    selectedMode: 'single',
+                    left: 'left',
+                    data: Object.keys(routesGroupByAirline),
+                    orient: 'vertical',
+                    textStyle: {
+                        color: '#fff',
+                        fontSize: 12,
+
+
+                    }
+                },
+                    globe: {
+                        baseTexture: "/static/images/airline/earth.jpg",
+                        heightTexture: "/static/images/airline/earth.jpg",
+                        displacementScale: 0.02,
+                        shading: 'realistic',
+                        environment: "/static/images/airline/universe.jpg",
+                        realisticMaterial: {
+                            roughness: 0.9
+                        },
+                        postEffect: {
+                            enable: true
+                        },
+                        light: {
+                            main: {
+                                intensity: 4,
+                                shadow: true,
+                                shadowQuality: 'high'
+                            },
+                            ambientCubemap: {
+                                texture: '/static/images/airline/lake.hdr',
+                                diffuseIntensity: 0.2
+                            }
+                        },
+                        viewControl: {
+                            // 定位到北京
+                            // targetCoord: [116.46, 39.92],
+                            autoRotateDirection: 'ccw',
+                            autoRotateAfterStill: 0.5,
+                            distance: 215
+                        },
+                        silent: true
+                    },
+                    series: series
+            });
+            window.addEventListener('keydown', function () {
+                series.forEach(function (series, idx) {
+                    chart.dispatchAction({
+                        type: 'lines3DToggleEffect',
+                        seriesIndex: idx
+                    });
+                })
+            });
+        });
+
+        window.addEventListener('resize', function () {
+            chart.resize();
+        });
+    </script>
+
+</body>
+
+</html>

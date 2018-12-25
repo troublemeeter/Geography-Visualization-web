@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from Zawarudo import views
 from django.conf.urls import include
+from django.conf.urls import static
+from Test import settings
 
 urlpatterns = [
     path(r'admin/', admin.site.urls),
@@ -24,3 +26,5 @@ urlpatterns = [
     path(r'Zawarudo/', include('Zawarudo.urls')),
 
 ]
+
+urlpatterns += static.static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
