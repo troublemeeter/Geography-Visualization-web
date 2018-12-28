@@ -9,9 +9,11 @@
 </head>
 
 <body>
+    <!-- 背景音乐自动循环播放 -->
     <audio autoplay="" loop="" id="bgAudio"><source src="{% static 'images/background/c.mp3' %}"></audio>
+    <!-- 背景音乐音量 -->
     <script type="text/javascript">document.getElementById("bgAudio").volume = 0.1</script>
-
+    <!-- 绘图 -->
     <div id="main" style="width: 100%;height:800px;"></div>
     <script src="{% static 'js/airline/echarts.min.js' %}"></script>
     <script src="{% static 'js/airline/echarts-gl.min.js' %}"></script>
@@ -20,7 +22,8 @@
     <script>
         var chart = echarts.init(document.getElementById('main'));
 
-        var canvas = document.createElement('canvas');
+        var canvas = document.createElement('canvas');//新建画布
+        //初始化
         var mapChart = echarts.init(canvas, null, {
             width: 4096,
             height: 2048
@@ -49,17 +52,20 @@
                 }
             ]
         });
-
+        //读入数据文件绘图
         $.getJSON('/static/js/airline/flights.json', function (data) {
+            //得到机场坐标
             var airports = data.airports.map(function (item) {
                 return {
-                    coord: [item[3], item[4]]
+                    coord: [item[3], item[4]] //lon,lat
                 }
             });
+            // 根据id拿到机场坐标
             function getAirportCoord(idx) {
                 return [data.airports[idx][3], data.airports[idx][4]];
             }
             // Route: [airlineIndex, sourceAirportIndex, destinationAirportIndex]
+            // 航空公司
             var routesGroupByAirline = {};
             data.routes.forEach(function (route) {
                 var airline = data.airlines[route[0]];
@@ -69,13 +75,13 @@
                 }
                 routesGroupByAirline[airlineName].push(route);
             });
-
+            // 每条航线两个机场坐标
             var pointsData = [];
             data.routes.forEach(function (airline) {
                 pointsData.push(getAirportCoord(airline[1]));
                 pointsData.push(getAirportCoord(airline[2]));
             });
-
+            // 绘制航线的参数，坐标
             var series = data.airlines.map(function (airline) {
                 var airlineName = airline[0];
                 var routes = routesGroupByAirline[airlineName];
@@ -98,7 +104,6 @@
                     lineStyle: {
                         width: 2,
                         color: 'rgb(50, 50, 150)',
-                        // color: 'rgb(118, 233, 241)',
                         opacity: 0.1
                     },
                     blendMode: 'lighter',
@@ -136,6 +141,7 @@
                         }
                     }
                 },
+                //选择框，航空公司的选择
                 legend: {
                     selectedMode: 'single',
                     left: 'left',
@@ -149,11 +155,11 @@
                     }
                 },
                     globe: {
-                        baseTexture: "/static/images/airline/earth.jpg",
-                        heightTexture: "/static/images/airline/earth.jpg",
+                        baseTexture: "/static/images/airline/earth.jpg",//地球表面图
+                        heightTexture: "/static/images/airline/earth.jpg",//地球表面地形
                         displacementScale: 0.02,
                         shading: 'realistic',
-                        environment: "/static/images/airline/universe.jpg",
+                        environment: "/static/images/airline/universe.jpg",//背景
                         realisticMaterial: {
                             roughness: 0.9
                         },
@@ -167,7 +173,7 @@
                                 shadowQuality: 'high'
                             },
                             ambientCubemap: {
-                                texture: '/static/images/airline/lake.hdr',
+                                texture: '/static/images/airline/lake.hdr',//光照
                                 diffuseIntensity: 0.2
                             }
                         },

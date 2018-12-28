@@ -19,12 +19,12 @@ from Zawarudo import views
 from django.conf.urls import include
 from django.conf.urls import static
 from Test import settings
-
+#定义url
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     #path('home/', views.index),
     path(r'Zawarudo/', include('Zawarudo.urls')),
-
 ]
 
+#打包时用于复制文件
 urlpatterns += static.static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

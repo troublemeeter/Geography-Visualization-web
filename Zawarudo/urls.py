@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from. import views as view
-
+#url链接到视图
 urlpatterns = [
     url('home/', view.index, name = 'home'),
     url('visualization1/', view.Graph1, name ='visualization1'),
