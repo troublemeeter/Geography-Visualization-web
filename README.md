@@ -1,6 +1,6 @@
 # 飞机航线可视化
 
-## 作品简介
+## 简介
 
 网站有四个主要界面，home，about，visualization1，visualization2，分别是主页，介绍页面，2d航线可视化页面，3d航线可视化页面。页面直接可以互相链接。
 
@@ -59,7 +59,7 @@ runserver
 
 ![](media/7ad1d312e040b61b995f6b060463a125.png)
 
-继续根据提示输入*http://127.0.0.1:8000/Zawarudo/home/*即可进入主页面。
+继续根据提示输入*http://127.0.0.1:8000/Zawarudo/home/* 即可进入主页面。  
 浏览器要求：edge有时候会出现bug，下拉框失灵，chrome比较稳定，推荐chrome打开。
 
 ## 代码实现
