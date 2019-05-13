@@ -6,9 +6,13 @@
 
 ### 主页：
 
+![](media/c800208ed10c431a93115e63cf51aa4b.png)
+
 元素：图形滚动框，了解更多按钮链接到visualization2页面，github外链到本项目的github。点击说明可以进入about页面。
 
 ### 介绍页面：
+
+![](media/0989861c26f98db91726c3674164135c.png)
 
 元素：动态背景视频，以及介绍性文字段落。
 
@@ -24,27 +28,38 @@
 
 ### 3d航线可视化页面：
 
+![](media/3f107ee3c62cb611fa44daec93892a1f.png)
+
 元素：页面加载自动播放背景音乐。地球可放大缩小，自由角度旋转，蓝色线条代表航线轨迹，黄色动态线条代表沿航线飞行的飞机。左侧可选择按钮，代表不同的航空公司。
 
 ## 使用说明
 
 文件结构如下：
 
+![](media/b6d1946f688f427bd2969636482d1498.png)
+
 ### 途径一：
 
 已经将Django项目打包可执行文件exe。位于dist/manage/manage.exe。在该路径下打开cmd，输入：manage.exe
 runserver
 
+![](media/cc9d0949f03e27cb7eb7e3143cfecc58.png)
+
 ### 途径二：
 
 若电脑配置有Django，可以在该路径打开cmd，输入：python manage.py runserver
 
+![](media/10216b7db7937c14b360defe41e4a25f.png)
+
 两种途径，都可以启动服务，之后在浏览器输入<http://127.0.0.1:8000/>，会提示页面不存在，
+
+![](media/f2731251ef679f4836c95d0ca4736239.png)
 
 因为我们将页面放在了<http://127.0.0.1:8000/Zawarudo/>下，所以根据提示输入该网址
 
-继续根据提示输入<http://127.0.0.1:8000/Zawarudo/home/>即可进入主页面。
+![](media/7ad1d312e040b61b995f6b060463a125.png)
 
+继续根据提示输入*http://127.0.0.1:8000/Zawarudo/home/*即可进入主页面。
 浏览器要求：edge有时候会出现bug，下拉框失灵，chrome比较稳定，推荐chrome打开。
 
 ## 代码实现
